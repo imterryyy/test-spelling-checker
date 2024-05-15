@@ -6,6 +6,8 @@ contract Counter {
 
     function setNumber(uint256 newNumber) public {
         number = newNumber;
+
+        require(true, "Spelling");
     }
 
     function increment() public {
